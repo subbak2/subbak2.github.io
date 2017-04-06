@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?v=3.exp&region=KR"></script>
+    <title>박경섭</title>
+  </head>
+  <body>
+  <div class="wrap">
+    <nav id="navi-bar">
+      <h1><a href="http://wode.kr/">박경섭</a></h1>
+      <ul>
+        <b><li><div><a href="http://wode.kr/">화요일</a></div></li></b>
+        <b><li><div><a href="http://wode.kr/">목요일</a></div></li></b>
+        <b><li><div><a href="http://wode.kr/">신난다</a></div></li></b>
+      </ul>
+    </nav>
+    <header id="header">
+      <div id="h_content">
+        <h1>홈페이지에 오신 걸 환영합니다.</h1>
+        <br></br>
+        <p>
+          차린게 별로 없어요
+        </p>
+      </div>
+    </header>
+    <section id="section">
+      <article>
+        <div><img src="http://wode.kr/media/likelion_ot.jpg" height=300 width=300 alt="멋사 5기 단체사진" ></div>
+        <p>
+          멋쟁이사자처럼 5기 화이팅! 운영진 최고!!
+        </p>
+		<p>
+		  <a href="http://kulionhw.club" target="_blank"> 다른 홈페이지 보러가기 </a>
+		</p>
+      </article>
+      <article>
+        <div><a href="http://wode.kr/practice" target="_blank"><img src="http://wode.kr/media/prac.PNG" height=300 width=300 alt="페이스북 예제"></a></div>
+        <p>
+          페이스북 예제 재밌어요
+        </p>
+      </article>
+      <article>
+          <div id="google_map" style="width:300px; height:300px;">  
+          </div>
+      <script>
+        var map;
+        function initialize() {
+          
+        var mapOptions = { //구글 맵 옵션 설정
+            zoom : 16, //기본 확대율
+            center : new google.maps.LatLng(37.586809, 127.030715), // 지도 중앙 위치
+            scrollwheel : false, //마우스 휠로 확대 축소 사용 여부
+            mapTypeControl : false //맵 타입 컨트롤 사용 여부
+        };
+ 
+        map = new google.maps.Map(document.getElementById('google_map'), mapOptions); //구글 맵을 사용할 타겟
+              }
+        
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqKArmCIuhJ0DZXiNDi5nkGp-2uuI1CfA&callback=initialize" async defer></script>
+
+
+        <p>
+          파이빌 303호 대니 사무실로 놀러오세요
+          <br></br>
+          대니 홈페이지 : <a href="http://daenny.com" target=_blank>daenny.com</a>
+        </p>
+      </article>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          <p>
+            Copyright &copy; 2017 박경섭. All rights reserved.
+          </p>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/subbak" target=_blank><img src="http://wode.kr/media/facebook.png" height=30 width=30></a>
+          <a href="https://www.instagram.com/subbak2" target=_blank><img src="http://wode.kr/media/insta.png" height=30 width=30></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  </body>
+</html>

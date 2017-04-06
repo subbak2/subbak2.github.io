@@ -1,0 +1,185 @@
+
+/* <----------------------------    Index   ----------------------------> */
+/*                                                                        */
+/*                                                                        */
+/*                          1. Basic Styles                               */
+/*                          2. Nav                                        */
+/*                          3. Header                                     */
+/*                          4. Section                                    */
+/*                          5. Footer                                     */
+/*                                                                        */
+/*                      Made by Subbak2@likelion.org                      */
+/*                                                                        */
+/*                                                                        */
+/* <-------------------------1. Basic Styles----------------------------> */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+.wrap {
+  width: 960px;
+  position: relative;
+}
+
+.container {
+  width: 960px;
+  position: relative;
+}
+
+
+
+/* <-------------------------2. Navi----------------------------> */
+
+
+
+#navi-bar {
+  width: 960px;
+  background-color: white;
+  padding-left: 75px;
+  padding-right: 75px;
+  height: 80px;
+  overflow: hidden;
+  position: fixed;
+  z-index: 9999;
+}
+
+#navi-bar a {
+ text-decoration: none;
+ color : #6ed4ab;
+}
+
+#navi-bar a:hover {
+  color: #3b5998;
+}
+
+#navi-bar h1 {
+  float: left;
+  line-height: 80px;
+}
+
+#navi-bar ul {
+  float: right;
+  list-style-type: none;
+}
+#navi-bar > ul li {
+  float: left;
+}
+#navi-bar > ul li > div {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+  line-height: 80px;
+}
+
+
+
+/* <-------------------------3. Header----------------------------> */
+
+
+
+#header {
+  padding-top: 0px;
+  height: 680px;
+  background-image: url("http://wode.kr/media/BG.jpg");
+  width: 960px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  display: table;
+  
+}
+#h_content {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+}
+
+#header h1 {
+  font-size: 40px;
+}
+#header p {
+  font-size: 30px;
+}
+
+
+
+/* <-------------------------4. Section----------------------------> */
+
+
+
+#section {
+  height: 600px;
+  background-color: #6ed4ab;
+}
+
+#section article {
+  float: left;
+  width: 320px;
+  padding-top: 20px;
+}
+#section article img {
+  display: block;
+}
+#section article > p {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+#section {
+    color:white;
+}
+
+#section p {
+  text-decoration: none;
+}
+
+
+/* <-------------------------5. Footer----------------------------> */
+
+
+
+#footer {
+  color: rgba(255, 255, 255, 0.4);
+  height: 60px;
+  line-height: 60px;
+  background-color: #262626;
+}
+
+#footer a{
+	color: rgba(255, 255, 255, 0.4);
+}
+
+#footer a:hover{
+	color: #fff;
+}
+
+.copyright{
+    position:absolute;
+    left: 300px;
+    width: 400px;
+}
+
+.social{
+	text-align: right;
+	float: right;
+	margin-top: 8px;
+	margin-right: 35px;
+	width: 400px;
+}
+
+
+
+/*                          6. Hidden                                     */
+
+#google_map {
+    z-index: 50;
+}

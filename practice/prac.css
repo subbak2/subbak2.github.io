@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+    background-color:#e9ebee;
+}
+
+.content {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Lato;
+    color: #111;
+}
+
+.search {
+    background-image: url("/rep/search.png");
+    width: 500px; 
+    height: 40px;
+    position: static;
+    float: left;
+}
+
+.button { 
+    background-image: url("/rep/button.png");
+    width: 320px; 
+    height: 40px;
+    position: static;
+    float: right;
+}
+
+.menu { 
+    background-image: url("/rep/menu.png");
+    width: 185px; 
+    height: 630px;
+    position: relative;
+    float: left;
+}
+
+.cover-image { 
+    background-image: url("/rep/cover-image.png");
+    width: 820px; 
+    height: 364px;
+    position: relative;
+}
+
+.newsfeed { 
+    background-image: url("/rep/newsfeed.png");
+    width: 496px; 
+    height: 321px;
+    position: absolute;
+    left:204px;
+    top:364px;
+}
+
+.advertise { 
+    background-image: url("/rep/advertise.png");
+    width: 306px; 
+    height: 372px;
+    position: relative;
+    float: right;
+}
+ 
+.container { 
+    width: 1024px;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+}
+
+#header{
+    height: 40px;
+    position: relative;
+    background-color:#3b5998;
+}
+
+#section{
+    position:relative;
+}
+
+.left{
+    width: 185px; 
+}
+
+.right{
+    width: 820px; 
+    float: right;
+    
+}
