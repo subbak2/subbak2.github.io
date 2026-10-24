@@ -1,7 +1,8 @@
 # 이력서
 
-* [템플릿](https://github.com/sproogen/modern-resume-theme)
-* [fork한_이력서](https://github.com/jojoldu/jojoldu.github.io)
+https://subbak2.github.io
+
+* 테마: [sproogen/resume-theme](https://github.com/sproogen/resume-theme) (`version: 2`, 내용은 `_config.yml`의 `about_content`·`content`)
 
 ## 구동방법
 

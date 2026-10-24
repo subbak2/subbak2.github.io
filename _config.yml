@@ -1,50 +1,98 @@
 # Site
 repository: subbak2/subbak2.github.io
-# favicon: images/favicon.ico
+version: 2
+lang: ko
 
 # Personal info
 name: 박경섭
-title: DBA, 소프트웨어 개발자
+title: Software & DB Engineer
 email: subbak2@gmail.com
 website: https://subbak2.tistory.com
 
 # Social links
-# twitter_username: jojoldu
 github_username: subbak2
-# dribbble_username: jekyll
-# facebook_username: jojoldu
-# flickr_username: jekyll
 linkedin_username: subbak2
-# pinterest_username: jekyll
 youtube_username: '@SubCodingChannel'
+additional_links:
+  - title: simplelife
+    icon: fas fa-leaf
+    url: https://simplelife.ai.kr/author/subcoding/
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Oracle DBMS / Java & Spring 기반의 5년차 SW 엔지니어<br/><br/>
-  삼성카드 시스템을 운영하며, 신규 시스템 구축 지원을 했습니다.<br/>
-  개인이 하고 싶은 일 보다 **회사와 팀에 도움이 되는** 개발을 중요하게 생각합니다.<br/><br/>
-  Oracle DBMS를 기반으로 MariaDB, PostgreSQL(EPAS)를 경험했고, <br/>
-  Java Spring을 기반으로 JSP, xplatform, Vus.js, Nuxt.js를 경험했고, <br/>
-  On-premise, AWS, SCP 등의 인프라 위에서 Unix, Linux를 경험했습니다.<br/><br/>
-  현재는 **DBA**로 SQL튜닝, 스토리지 최적화, 데이터 아키텍처 설계, 모니터링 개발을 주요 업무로 하고 있습니다.<br/>
+  클라우드 **PostgreSQL DBaaS**를 만드는 소프트웨어·DB 엔지니어입니다.<br/><br/>
+  삼성SDS에서 Samsung Cloud Platform(SCP)의 DBaaS를 개발하고 있고, 그 전에는 삼성카드에 파견되어 백엔드 개발자와 Oracle DBA로 일했습니다.<br/>
+  퇴근 후에는 맥에서 불편한 것 하나를 고치는 작은 앱을 만들고, 직접 써 본 개발·AI 도구 이야기를 씁니다.
 
-# Projects Section
-# projects_title: Projects
+content:
+  - title: 경력
+    layout: list
+    content:
+      - layout: left
+        title: 삼성SDS
+        sub_title: DBaaS Engineer
+        caption: 2024.06 ~ 현재
+        description: |
+          Samsung Cloud Platform(SCP) DBaaS 개발
+          * **PostgreSQL DBaaS** 개발 (2026.06 ~)
+          * OpenSearch·Elasticsearch DBaaS: 프로비저닝·스케일링·모니터링 자동화, 컨트롤 플레인과 플랫폼 아키텍처
+          * DBaaS TA·DBA 부담당 겸업 (2025 ~)
+      - layout: left
+        title: 삼성SDS
+        sub_title: DBA · 삼성카드 파견
+        caption: 2020.04 ~ 2024.05
+        description: |
+          고객사 금융 시스템의 Oracle 운영
+          * SQL 튜닝, 논리 설계, 스토리지 최적화
+          * 고가용성 확보, 서버·DB 모니터링
+      - layout: left
+        title: 삼성SDS
+        sub_title: Backend Developer · 삼성카드 파견
+        caption: 2019.03 ~ 2020.03
+        description: |
+          고객사 Java/Spring 백엔드 개발
+          * 사내 SW 알고리즘 강사 (C++, Java)
+          * 베트남 CMC Global과 GDC 프로젝트 아키텍트
 
-# Experience Section
-# experience_title: Experience
+  - title: AI 활용
+    layout: text
+    content: |
+      사이드 프로젝트는 작은 AI 팀으로 굴러갑니다. **Claude**(Claude Code)가 코드를 쓰고 배포하고, **Gemini**가 조사하고, **Codex**가 실제 데이터에 손대기 전에 한 번 더 검토합니다. 아래 맥 앱도 이렇게 만들었습니다.
 
-# Education Section
-# educaton_title: Education
+      요즘 관심: AI 영상·음악 (Higgsfield, Kling, Suno)
 
-# More Section
-# more_title: A Little More About Me
-#more_content: | # this will include new lines to allow paragraphs
+  - title: 맥 앱
+    layout: list
+    content:
+      - layout: left
+        title: PortableHiDPI
+        link: github.com/subbak2/PortableHiDPI
+        link_text: GitHub
+        description: |
+          14~16인치 휴대용 모니터에서 맥 글씨를 레티나(HiDPI)로 선명하게. Apple Silicon 맥이 막아 둔 중간 해상도 HiDPI를 가상 디스플레이로 켭니다.
+      - layout: left
+        title: ScrollSplit
+        link: github.com/subbak2/ScrollSplit
+        link_text: GitHub
+        description: |
+          트랙패드는 자연스러운 스크롤, 마우스는 일반 스크롤로 동시에. 손쉬운 사용 권한 하나만 쓰고 스크롤 외의 입력은 받지 않습니다.
+
+  - title: 기술
+    layout: text
+    content: |
+      * **Data**: Oracle, PostgreSQL, OpenSearch, Elasticsearch
+      * **Backend**: Java, Spring, Vue.js, Python
+      * **Ops**: Docker, Jenkins, Prometheus, Grafana
+
+  - title: 글·영상
+    layout: text
+    content: |
+      * [티스토리](https://subbak2.tistory.com) · [유튜브 SubCoding](https://www.youtube.com/@SubCodingChannel) ([실습 코드](https://github.com/subbak2/SubCoding)) · [simplelife](https://simplelife.ai.kr/author/subcoding/) · [LinkedIn](https://www.linkedin.com/in/subbak2/) · [네이버 블로그](https://blog.naver.com/subcoding)
+      * 개발 도구, AI 도구, 직접 산 장비 이야기. 협찬 없음.
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 
 # Build settings
 remote_theme: sproogen/resume-theme
