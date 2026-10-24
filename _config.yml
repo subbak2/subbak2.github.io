@@ -83,7 +83,7 @@ content:
         link_text: GitHub
         description: |
           PHP 보안 릴리스 직후 Docker 공식 이미지가 뒤처졌을 때, 공식 빌드 파일에서 PHP 버전만 올려 WordPress·PHP 이미지를 직접 빌드하는 도구. 미리 만든 바이너리 없이 SHA256·GPG 검증은 공식과 같습니다.
-          * PHP2Shell(CVE-2026-109618·109619) 때 운영 워드프레스에 91분 만에 반영한 과정을 일반화
+          * PHP2Shell(CVE-2026-109618·109619) 때 운영 워드프레스에 91분 만에 반영한 과정을 일반화 ([대응기](https://subbak2.tistory.com/217))
 
   - title: 기술
     layout: text
