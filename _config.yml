@@ -58,11 +58,11 @@ content:
   - title: AI 활용
     layout: text
     content: |
-      사이드 프로젝트는 작은 AI 팀으로 굴러갑니다. **Claude**(Claude Code)가 코드를 쓰고 배포하고, **Gemini**가 조사하고, **Codex**가 실제 데이터에 손대기 전에 한 번 더 검토합니다. 아래 맥 앱도 이렇게 만들었습니다.
+      사이드 프로젝트는 작은 AI 팀으로 굴러갑니다. **Claude**(Claude Code)가 코드를 쓰고 배포하고, **Gemini**가 조사하고, **Codex**가 실제 데이터에 손대기 전에 한 번 더 검토합니다. 아래 사이드 프로젝트도 이렇게 만들었습니다.
 
       요즘 관심: AI 영상·음악 (Higgsfield, Kling, Suno)
 
-  - title: 맥 앱
+  - title: 사이드 프로젝트
     layout: list
     content:
       - layout: left
@@ -77,6 +77,13 @@ content:
         link_text: GitHub
         description: |
           트랙패드는 자연스러운 스크롤, 마우스는 일반 스크롤로 동시에. 손쉬운 사용 권한 하나만 쓰고 스크롤 외의 입력은 받지 않습니다.
+      - layout: left
+        title: php-docker-hotpatch
+        link: github.com/subbak2/php-docker-hotpatch
+        link_text: GitHub
+        description: |
+          PHP 보안 릴리스 직후 Docker 공식 이미지가 뒤처졌을 때, 공식 빌드 파일에서 PHP 버전만 올려 WordPress·PHP 이미지를 직접 빌드하는 도구. 미리 만든 바이너리 없이 SHA256·GPG 검증은 공식과 같습니다.
+          * PHP2Shell(CVE-2026-109618·109619) 때 운영 워드프레스에 91분 만에 반영한 과정을 일반화
 
   - title: 기술
     layout: text
